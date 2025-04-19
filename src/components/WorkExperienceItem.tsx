@@ -11,6 +11,7 @@ interface WorkExperienceItemProps {
   skills: Array[string];
   isOpen: boolean;
   toggle: ()=> void;
+  link: string | undefined;
 }
 
 const WorkExperienceItem: React.FC<WorkExperienceItemProps> = ({
@@ -22,12 +23,19 @@ const WorkExperienceItem: React.FC<WorkExperienceItemProps> = ({
   description,
   skills, 
   isOpen,
-  toggle
+  toggle, link
 }) => {
 
   return (
     <div
-      onClick={toggle}
+      onClick={()=> {
+        if(toggle){
+          toggle()
+        }
+        if(link){
+          window.open(link, "_blank");
+        }
+      }}
       className="cursor-pointer dark:border-gray-700 space-y-4 group"
     >
       <div className="flex justify-between gap-3">
@@ -36,12 +44,12 @@ const WorkExperienceItem: React.FC<WorkExperienceItemProps> = ({
           <div className="flex justify-between">
             <div>
               <div className="flex items-center">
-                <h3 className="text-base font-semibold">{title}</h3>
+                <h3 className="text-base font-semibold capitalize">{title}</h3>
                 <div className="ml-1 text-gray-500 transform translate-x-0 group-hover:translate-x-1 transition-transform ease-in-oout duration-300">
                    <ChevronUp size={16} className={`hidden group-hover:block transition-rotation duration-500 ease-in-out ${isOpen? 'rotate-180': 'rotate-90'}`}/>
                 </div>
               </div>
-              <p className="text-sm text-gray-600 dark:text-gray-400">
+              <p className="text-sm text-gray-600 dark:text-gray-400 capitalize">
                 {subTitle}
               </p>
             </div>

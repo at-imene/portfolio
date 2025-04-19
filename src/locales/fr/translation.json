@@ -8,6 +8,7 @@
   "change-language": "Changer la langue",
   "lighting": "Thème",
   "work-experience": "Expérience professionnelle",
+  "education": "Éducation",
   "about-me-short-desciption": "Ingénieure logicielle passionnée par la transformation<1/><1/> d'idées complexes en expériences numériques concrètes et percutantes.",
   "about-me-description": "Je suis une ingénieure logicielle avec un parcours pluridisciplinaire incluant le développement mobile, les systèmes ERP et la transformation numérique du secteur public.<1/><1/>Mon parcours académique en vision par ordinateur m’a initiée aux bases de l’intelligence artificielle et de la science des données, nourrissant mon intérêt pour des solutions concrètes et centrées sur l’utilisateur.<1/><1/>J’ai débuté ma carrière en tant que développeuse Android freelance, puis j’ai travaillé comme développeuse full-stack sur des solutions ERP. Actuellement, je fais partie du Haut Commissariat à la Numérisation en Algérie, où je développe des systèmes sécurisés et évolutifs pour moderniser les services publics et soutenir la gouvernance électronique.<1/><1/>Je suis passionnée par l'application des technologies émergentes pour créer des logiciels utiles et efficaces, tout en restant curieuse et adaptable à de nouveaux outils et environnements de développement.",
   "hcn-high-commission-for-digitalization": "HCN - Haut Commissariat à la Numérisation",
@@ -31,6 +32,16 @@
   "craag-timeline": "Fév 2023 - Juil 2023",
   "craag-headquarter": "Bouzareah, Alger",
   "show-all": "Afficher tout",
-"hide-all": "Masquer tout"
+  "hide-all": "Masquer tout",
+  "usthb": "USTHB",
+  "ecoin": "Ecoin",
+  "master-computer-vision": "Master en vision par ordinateur",
+  "isil-timeline": "Sept 2018 - Juil 2021",
+  "miv-timeline": "Sept 2021 - Juil 2023",
+  "ecoin-timeline": "Nov 2022 - Avril 2024",
+  "graphic-design": "Design graphique",
+  "usthb-headquarter": "Bab Ezzouar, Alger",
+  "ecoin-headquarter": "Alger",
+  "bachelor-computer-science": "Licence en Informatique"
 
 }

@@ -8,6 +8,7 @@
     "change-language": "Change language",
     "lighting": "Lighting",
     "work-experience": "Work Experience",
+    "education": "Education",
     "about-me-short-desciption": "Software Engineer driven by a passion for turning<1/><1/> complex ideas into practical, impactful digital experiences.",
     "about-me-description": "I’m a Software Engineer with a multidisciplinary background spanning mobile development, ERP systems, and public sector digital transformation.<1/><1/>My academic focus on computer vision introduced me to the fundamentals of AI and data science, shaping my interest in practical, user-driven solutions.<1/><1/>I started my career as a freelance Android developer, then worked as a Full Stack Developer building ERP solutions. Currently, I’m part of the High Commission for Digitalization in Algeria, where I develop secure, scalable systems that modernize public services and support e-governance.<1/><1/>I’m passionate about applying emerging technologies to build meaningful, efficient software—always learning and adaptable to new tools and programming environments.",
     "hcn-high-commission-for-digitalization":"HCN - High commission for digitalization",
@@ -31,7 +32,17 @@
     "craag-timeline": "Feb 2023 - July 2023",
     "craag-headquarter": "Bouzareah, Algiers",
     "show-all": "Show all",
-    "hide-all": "Hide all"
-    
-
+    "hide-all": "Hide all",
+    "usthb": "USTHB",
+    "ecoin": "Ecoin",
+    "master-computer-vision": "Master's degree, Computer vision",
+    "isil-timeline":"Sept 2018 - Juil 2021",
+    "miv-timeline":"Sept 2021 - Juil 2023",
+    "ecoin-timeline": "Nov 2022 - April 2024",
+    "graphic-design": "Graphic design",
+    "usthb-headquarter": "Bab ezzouar, Algiers",
+    "ecoin-headquarter": "Algiers",
+    "bachelor-computer-science": "Bachelor's in computer science",
+    "checkout-my-work": "Checkout some of my work",
+    "projects-description": "I've worked on a variety of projects, including desktop, mobile, and web applications. Unfortunately, some of them are private and cannot be shared. However, here are a few selected projects that I can showcase."
 }
