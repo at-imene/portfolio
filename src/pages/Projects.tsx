@@ -1,4 +1,3 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 import { projectsData } from "../data/data";
 import ProjectCard from "../components/ProjectCard";

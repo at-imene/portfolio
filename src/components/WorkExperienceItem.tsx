@@ -8,7 +8,7 @@ interface WorkExperienceItemProps {
   tailing: string;
   subTailing: string;
   description: string;
-  skills: Array[string];
+  skills: string[];
   isOpen: boolean;
   toggle: ()=> void;
   link: string | undefined;

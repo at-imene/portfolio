@@ -1,4 +1,3 @@
-import React from 'react'
 import { useTranslation } from 'react-i18next'
 import WorkExperienceItem from '../components/WorkExperienceItem'
 import { educationData } from '../data/data'

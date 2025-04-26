@@ -29,7 +29,7 @@ function BottomNavbar() {
   const defaultMessage = "Hello, I would like to get in touch with you!";
 
   const handleWhatsAppClick = () => {
-    const whatsappURL = `https://wa.me/213553966675?text=${encodeURIComponent(defaultMessage)}`;
+    const whatsappURL :string = `https://wa.me/213553966675?text=${encodeURIComponent(defaultMessage)}`;
     window.open(whatsappURL, "_blank", "noopener,noreferrer");
   };
 

@@ -1,4 +1,3 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 import {
   BackendSkills,
@@ -8,7 +7,11 @@ import {
   MobileSkills,
 } from "../data/data";
 
-const SkillTag = ({ tagname }) => {
+type SkillTagProps = {
+  tagname: string;
+};
+
+const SkillTag = ({ tagname }: SkillTagProps) => {
   return (
     <p className="bg-primary text-primary-foreground text-xs md:text-sm rounded-sm py-1 px-2">
       {tagname}
