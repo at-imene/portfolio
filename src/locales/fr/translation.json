@@ -9,7 +9,7 @@
   "lighting": "Thème",
   "work-experience": "Expérience professionnelle",
   "education": "Éducation",
-  "about-me-short-desciption": "Ingénieure logicielle passionnée par la transformation<1/><1/> d'idées complexes en expériences numériques concrètes et percutantes.",
+  "about-me-short-description": "Ingénieure logicielle passionnée par la transformation<1/> d'idées complexes en expériences numériques concrètes et percutantes.",
   "about-me-description": "Je suis une ingénieure logicielle avec un parcours pluridisciplinaire incluant le développement mobile, les systèmes ERP et la transformation numérique du secteur public.<1/><1/>Mon parcours académique en vision par ordinateur m’a initiée aux bases de l’intelligence artificielle et de la science des données, nourrissant mon intérêt pour des solutions concrètes et centrées sur l’utilisateur.<1/><1/>J’ai débuté ma carrière en tant que développeuse Android freelance, puis j’ai travaillé comme développeuse full-stack sur des solutions ERP. Actuellement, je fais partie du Haut Commissariat à la Numérisation en Algérie, où je développe des systèmes sécurisés et évolutifs pour moderniser les services publics et soutenir la gouvernance électronique.<1/><1/>Je suis passionnée par l'application des technologies émergentes pour créer des logiciels utiles et efficaces, tout en restant curieuse et adaptable à de nouveaux outils et environnements de développement.",
   "hcn-high-commission-for-digitalization": "HCN - Haut Commissariat à la Numérisation",
   "software-engineer": "Ingénieure logicielle",
@@ -42,6 +42,38 @@
   "graphic-design": "Design graphique",
   "usthb-headquarter": "Bab Ezzouar, Alger",
   "ecoin-headquarter": "Alger",
-  "bachelor-computer-science": "Licence en Informatique"
+  "bachelor-computer-science": "Licence en Informatique",
+  "checkout-my-work": "Parcourez une sélection de mes travaux",
+  "projects-description": "J'ai travaillé sur une variété de projets, y compris des applications desktop, mobiles et web. Malheureusement, certains d'entre eux sont confidentiels et ne peuvent pas être partagés. Cependant, voici une sélection de projets que je peux vous présenter.",
+  "news-app-description": "Raven est une application d’actualités élégante qui vous permet de recevoir les derniers titres directement sur votre appareil. Grâce à une recherche intuitive par mots-clés, vous pouvez rapidement trouver les articles qui vous intéressent. Restez informé et à jour avec Raven, votre source d’actualités à emporter.",
+
+  "pharma-app-description": "Le Système National de Veille et d’Alerte sur l’Approvisionnement du Marché National en Médicaments est une plateforme numérique conçue pour garantir la disponibilité continue des médicaments essentiels à travers l’Algérie. Ce système permet une surveillance en temps réel des niveaux de stock, détecte les pénuries potentielles et facilite l’envoi d’alertes proactives aux parties prenantes, notamment les autorités sanitaires, les fabricants et les distributeurs pharmaceutiques. En centralisant les données et en automatisant les alertes, le système améliore la prise de décision, soutient l’efficacité de la chaîne d’approvisionnement et contribue à la sécurité sanitaire publique grâce à des interventions rapides.",
+
+  "movies-app-description": "Movizy est une application Android qui affiche une liste de films tendance et fournit des informations détaillées sur chaque film sélectionné. Elle est développée avec Kotlin et Jetpack Compose pour offrir une interface moderne et réactive.",
+
+  "sunspot-app-description": "Le Système National de Veille et d’Alerte sur l’Approvisionnement du Marché National en Médicaments est une plateforme numérique conçue pour garantir la disponibilité continue des médicaments essentiels à travers l’Algérie. Ce système permet une surveillance en temps réel des niveaux de stock, détecte les pénuries potentielles et facilite l’envoi d’alertes proactives aux parties prenantes, notamment les autorités sanitaires, les fabricants et les distributeurs pharmaceutiques. En centralisant les données et en automatisant les alertes, le système améliore la prise de décision, soutient l’efficacité de la chaîne d’approvisionnement et contribue à la sécurité sanitaire publique grâce à des interventions rapides.",
+
+  "raven-news-app": "Raven - Application d’actualités",
+  "pharma-title": "Système de veille sur l’approvisionnement en médicaments",
+  "moviz-app": "Moviz - Application de films",
+  "sunspot-app-title": "Détection et classification des taches solaires",
+  "news-app-timeline": "Août 2024",
+  "pharma-timeline": "Novembre 2024 - Avril 2025",
+  "moviz-timeline": "Juin 2024",
+  "sunspot-timeline": "Janvier 2023 - Juillet 2023",
+  "sentTitle": "Message envoyé",
+  "sentMessage": "Votre message a été envoyé avec succès!",
+  "errorTitle": "Échec de l'envoi!",
+  "errorMessage": "Une erreur est survenue lors de l'envoi du message. Veuillez réessayer.",
+  "name-or-company": "Nom ou entreprise",
+  "your-name": "Votre nom",
+  "email": "E-mail",
+  "your-email": "Votre e-mail",
+  "subject": "Sujet",
+  "your-message": "Votre message",
+  "send-message": "Envoyer",
+  "want-to-chat": "Vous voulez discuter ? Envoyez-moi simplement un message direct avec une",
+  "direct-question": "question directe sur WhatsApp",
+  "i-will-ignore-soliciting": "et je répondrai dès que possible. Toute sollicitation sera ignorée."
 
 }

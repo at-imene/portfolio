@@ -35,10 +35,13 @@ function App() {
   ])
 
   return (
-    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      
-      <RouterProvider router={routes}/>
-    </ThemeProvider>
+    <div className="max-w-screen w-sm sm:px-0 md:min-w-3xl lg:min-w-4xl mx-auto space-y-8  space-b-24 mt-20 mb-40">
+      <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+        
+        <RouterProvider router={routes}/>
+      </ThemeProvider>
+
+    </div>
   )
 }
 

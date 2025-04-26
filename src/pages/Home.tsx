@@ -6,13 +6,14 @@ import EducationSection from "../sections/EducationSection";
 import AboutmeSection from "../sections/AboutmeSection";
 import SkillsSection from "../sections/SkillsSection";
 import Projects from "./Projects";
+import ContactMe from "./ContactMe";
 
 function Home() {
   const { t } = useTranslation();
   const name = "Imene";
 
   return (
-    <div className="max-w-screen w-sm sm:px-0 md:min-w-3xl lg:min-w-4xl mx-auto space-y-8  space-b-24">
+    <div className="max-w-screen w-sm sm:px-0 md:min-w-3xl lg:min-w-4xl mx-auto space-y-8  space-b-24 mt-20 mb-40">
       <main className="flex flex-col-reverse md:flex-row gap-4 items-center justify-between text-center md:text-left ">
         <div className="max-w-2xl">
           <h3 className="text-2xl md:text-5xl font-black">
@@ -41,6 +42,8 @@ function Home() {
       <SkillsSection />
 
       <Projects />
+
+      <ContactMe />
       
     </div>
   );

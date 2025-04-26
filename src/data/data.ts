@@ -1,3 +1,5 @@
+import { ProjectCategory, ProjectItemPropsType } from "../types/types";
+
 type WorkCardProps = {
   imgSrc: string;
   title: string;
@@ -9,6 +11,8 @@ type WorkCardProps = {
   link:string | undefined;
 };
 
+
+ 
 const currentPage = window.location.origin;
 
 export const workExpData: WorkCardProps[] = [
@@ -89,4 +93,45 @@ export const BackendSkills: string[] = ['Java Spring Boot', '.NET Core', 'Django
 export const DBSkills: string[] = ['PostgreSQL', 'SQL Server', 'Entity Framework', 'JPA/Hibernate'];
 export const DevopSkills: string[] = ['Git', 'Docker'];
 export const MobileSkills: string[] = ['Android Studio', 'Jetpack Compose', 'Flutter'];
+
+
+export const projectsData : ProjectItemPropsType[] = [
+  {
+    title: "raven-news-app",
+    imgSrc: ["/src/assets/projects/news-app/news-cover.png","/src/assets/projects/news-app/news-app.PNG"],
+    shortDescription: "news-app-description",
+    githubLink: "https://github.com/at-imene/NewsApp",
+    skills:["Flutter", "Dart"],
+    timeline: "news-app-timeline",
+    category: ProjectCategory.Mobile
+  },
+  {
+    title: "pharma-title",
+    imgSrc: ["/src/assets/projects/pharma/pharma.PNG",],
+    shortDescription: 'pharma-app-description',
+    skills:["Spring boot", "Reactjs", "Postgresql", "Git", "Docker"],
+    demoLink: "https://snvaam.hcn.dz/login",
+    timeline: "pharma-timeline",
+    category: ProjectCategory.web
+  },
+  {
+    title: "sunspot-app-title",
+    imgSrc: ["/src/assets/projects/sun/sunspot-classification.jpg", "/src/assets/projects/sun/sunspot-detection.jpg"],
+    shortDescription: 'sunspot-app-description',
+    skills:["Tensorflow", "Keras", "Django", "React", "Web scraping"],
+    githubLink: "https://github.com/at-imene/Sunspoty",
+    timeline: "sunspot-timeline",
+    category: ProjectCategory.web
+  },
+  {
+    title: "moviz-app",
+    imgSrc: ["/src/assets/projects/moviz/moviz-cover.png"],
+    shortDescription: 'movies-app-description',
+    skills:["Android studio", "Kotlin", "Jetpack compose"],
+    githubLink: "https://github.com/at-imene/Movizy",
+    timeline: "moviz-timeline",
+    category: ProjectCategory.mobile
+  },
+
+]
 
