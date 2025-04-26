@@ -25,10 +25,10 @@ function ContactMe() {
     if (formRef.current) {
       emailjs
         .sendForm(
-          "service_sozntsf",
-          "template_7hoqdiz",
+          import.meta.env.VITE_EMAILJS_SERVICE_ID,
+          import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
           formRef.current,
-          "e1psV6JjlidA0-rkv"
+          import.meta.env.VITE_EMAILJS_PUBLIC_KEY
         )
         .then(() => {
           toast(currentLang === "fr" ? "Envoyé" : "Sent", {
