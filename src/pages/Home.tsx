@@ -25,7 +25,7 @@ function Home() {
           </p>
         </div>
         <img
-          src="/src/assets/img/me-pic.webp"
+          src="/assets/img/me-pic.webp"
           alt="profile picture"
           className="block rounded-full size-28 md:size-36 object-cover"
         />

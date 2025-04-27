@@ -25,7 +25,7 @@ const currentPage = window.location.origin;
 
 export const workExpData: WorkCardProps[] = [
   {
-    imgSrc: "/src/assets/img/logo-hcn.png",
+    imgSrc: "/assets/img/logo-hcn.png",
     title: "software-engineer",
     subTitle: "hcn-high-commission-for-digitalization",
     description: "hcn-description",
@@ -41,7 +41,7 @@ export const workExpData: WorkCardProps[] = [
     ],
   },
   {
-    imgSrc: "/src/assets/img/logo-kbsystems.jpg",
+    imgSrc: "/assets/img/logo-kbsystems.jpg",
     title: ".net-full-stack-developer",
     subTitle: "kb-systems",
     description: "kb-systems-description",
@@ -50,7 +50,7 @@ export const workExpData: WorkCardProps[] = [
     skills: [".Net core", "MAUI", "Blazor", "SQL Server", "Git"],
   },
   {
-    imgSrc: "/src/assets/img/logo-fiverr.png",
+    imgSrc: "/assets/img/logo-fiverr.png",
     title: "android-mobile-developer",
     subTitle: "fiverr",
     description: "fiverr-description",
@@ -59,7 +59,7 @@ export const workExpData: WorkCardProps[] = [
     skills: ["Android studio", "Java", "Kotlin", "Jetpack compose", "Firebase"],
   },
   {
-    imgSrc: "/src/assets/img/logo-craag.png",
+    imgSrc: "/assets/img/logo-craag.png",
     title: "ml-engineer-intern",
     subTitle: "craag",
     description: "craag-description",
@@ -71,7 +71,7 @@ export const workExpData: WorkCardProps[] = [
 
 export const educationData: EduCardProps[] = [
   {
-    imgSrc: "/src/assets/img/logo-usthb.jpg",
+    imgSrc: "/assets/img/logo-usthb.jpg",
     title: "master-computer-vision",
     subTitle: "usthb",
     link: "https://finfo.usthb.dz/index.php/master-informatique-visuelle/",
@@ -79,7 +79,7 @@ export const educationData: EduCardProps[] = [
     subTailing: "usthb-headquarter",
   },
   {
-    imgSrc: "/src/assets/img/logo-usthb.jpg",
+    imgSrc: "/assets/img/logo-usthb.jpg",
     title: "bachelor-computer-science",
     subTitle: "usthb",
     link: "https://finfo.usthb.dz/index.php/licence-isil/",
@@ -87,7 +87,7 @@ export const educationData: EduCardProps[] = [
     subTailing: "usthb-headquarter",
   },
   {
-    imgSrc: "/src/assets/img/logo-ecoin.jpg",
+    imgSrc: "/assets/img/logo-ecoin.jpg",
     title: "graphic-design",
     subTitle: "ecoin",
     link: `${currentPage}/design-portfolio.pdf`,
@@ -106,7 +106,7 @@ export const MobileSkills: string[] = ['Android Studio', 'Jetpack Compose', 'Flu
 export const projectsData : ProjectItemPropsType[] = [
   {
     title: "raven-news-app",
-    imgSrc: ["/src/assets/projects/news-app/news-cover.png","/src/assets/projects/news-app/news-app.PNG"],
+    imgSrc: ["/assets/projects/news-app/news-cover.png","/assets/projects/news-app/news-app.PNG"],
     shortDescription: "news-app-description",
     githubLink: "https://github.com/at-imene/NewsApp",
     demoLink: undefined,
@@ -116,7 +116,7 @@ export const projectsData : ProjectItemPropsType[] = [
   },
   {
     title: "pharma-title",
-    imgSrc: ["/src/assets/projects/pharma/pharma.PNG",],
+    imgSrc: ["/assets/projects/pharma/pharma.PNG",],
     shortDescription: 'pharma-app-description',
     skills:["Spring boot", "Reactjs", "Postgresql", "Git", "Docker"],
     demoLink: "https://snvaam.hcn.dz/login",
@@ -126,7 +126,7 @@ export const projectsData : ProjectItemPropsType[] = [
   },
   {
     title: "sunspot-app-title",
-    imgSrc: ["/src/assets/projects/sun/sunspot-classification.jpg", "/src/assets/projects/sun/sunspot-detection.jpg"],
+    imgSrc: ["/assets/projects/sun/sunspot-classification.jpg", "/assets/projects/sun/sunspot-detection.jpg"],
     shortDescription: 'sunspot-app-description',
     skills:["Tensorflow", "Keras", "Django", "React", "Web scraping"],
     githubLink: "https://github.com/at-imene/Sunspoty",
@@ -136,7 +136,7 @@ export const projectsData : ProjectItemPropsType[] = [
   },
   {
     title: "moviz-app",
-    imgSrc: ["/src/assets/projects/moviz/moviz-cover.png"],
+    imgSrc: ["/assets/projects/moviz/moviz-cover.png"],
     shortDescription: 'movies-app-description',
     skills:["Android studio", "Kotlin", "Jetpack compose"],
     githubLink: "https://github.com/at-imene/Movizy",
