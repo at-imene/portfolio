@@ -1,5 +1,3 @@
-import { educationData } from "../data/data";
-import WorkExperienceItem from "../components/WorkExperienceItem";
 import { Trans, useTranslation } from "react-i18next";
 import ExperienceSection from '../sections/ExperienceSection'
 import EducationSection from "../sections/EducationSection";

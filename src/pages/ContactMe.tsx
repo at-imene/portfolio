@@ -39,7 +39,7 @@ function ContactMe() {
           });
           formRef.current?.reset();
         })
-        .catch((error) => {
+        .catch(() => {
           toast(currentLang === "fr" ? "Erreur" : "Error", {
             description: (
               <div className="flex flex-col gap-2">

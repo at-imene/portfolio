@@ -1,5 +1,14 @@
 import { ProjectCategory, ProjectItemPropsType } from "../types/types";
 
+type EduCardProps = {
+  imgSrc: string;
+  title: string;
+  subTitle: string;
+  tailing: string;
+  subTailing: string;
+  link:string | undefined;
+}
+
 type WorkCardProps = {
   imgSrc: string;
   title: string;
@@ -7,8 +16,7 @@ type WorkCardProps = {
   description: string;
   tailing: string;
   subTailing: string;
-  skills: string[] | undefined;
-  link:string | undefined;
+  skills: string[];
 };
 
 
@@ -61,7 +69,7 @@ export const workExpData: WorkCardProps[] = [
   },
 ];
 
-export const educationData: WorkCardProps[] = [
+export const educationData: EduCardProps[] = [
   {
     imgSrc: "/src/assets/img/logo-usthb.jpg",
     title: "master-computer-vision",
@@ -101,6 +109,7 @@ export const projectsData : ProjectItemPropsType[] = [
     imgSrc: ["/src/assets/projects/news-app/news-cover.png","/src/assets/projects/news-app/news-app.PNG"],
     shortDescription: "news-app-description",
     githubLink: "https://github.com/at-imene/NewsApp",
+    demoLink: undefined,
     skills:["Flutter", "Dart"],
     timeline: "news-app-timeline",
     category: ProjectCategory.Mobile
@@ -111,8 +120,9 @@ export const projectsData : ProjectItemPropsType[] = [
     shortDescription: 'pharma-app-description',
     skills:["Spring boot", "Reactjs", "Postgresql", "Git", "Docker"],
     demoLink: "https://snvaam.hcn.dz/login",
+    githubLink:undefined,
     timeline: "pharma-timeline",
-    category: ProjectCategory.web
+    category: ProjectCategory.Web
   },
   {
     title: "sunspot-app-title",
@@ -120,8 +130,9 @@ export const projectsData : ProjectItemPropsType[] = [
     shortDescription: 'sunspot-app-description',
     skills:["Tensorflow", "Keras", "Django", "React", "Web scraping"],
     githubLink: "https://github.com/at-imene/Sunspoty",
+    demoLink:undefined,
     timeline: "sunspot-timeline",
-    category: ProjectCategory.web
+    category: ProjectCategory.Web
   },
   {
     title: "moviz-app",
@@ -129,8 +140,9 @@ export const projectsData : ProjectItemPropsType[] = [
     shortDescription: 'movies-app-description',
     skills:["Android studio", "Kotlin", "Jetpack compose"],
     githubLink: "https://github.com/at-imene/Movizy",
+    demoLink:undefined,
     timeline: "moviz-timeline",
-    category: ProjectCategory.mobile
+    category: ProjectCategory.Mobile
   },
 
 ]

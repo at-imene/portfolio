@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { ChevronDown, ChevronUp } from "lucide-react";
+import React from "react";
+import { ChevronUp } from "lucide-react";
 
 interface WorkExperienceItemProps {
   imgSrc: string;
@@ -7,11 +7,11 @@ interface WorkExperienceItemProps {
   subTitle: string;
   tailing: string;
   subTailing: string;
-  description: string;
-  skills: string[];
+  description?: string; // optional now ✅
+  skills?: string[];     // optional now ✅
   isOpen: boolean;
-  toggle: ()=> void;
-  link: string | undefined;
+  toggle: () => void;
+  link?: string;      
 }
 
 const WorkExperienceItem: React.FC<WorkExperienceItemProps> = ({
@@ -21,32 +21,43 @@ const WorkExperienceItem: React.FC<WorkExperienceItemProps> = ({
   tailing,
   subTailing,
   description,
-  skills, 
-  isOpen,
-  toggle, link
+  skills,
+  isOpen = false,
+  toggle,
+  link
 }) => {
-
   return (
     <div
-      onClick={()=> {
-        if(toggle){
-          toggle()
+      onClick={() => {
+        if (toggle) {
+          toggle();
         }
-        if(link){
+        if (link) {
           window.open(link, "_blank");
         }
       }}
       className="cursor-pointer dark:border-gray-700 space-y-4 group"
     >
       <div className="flex justify-between gap-3">
-        <img src={imgSrc} alt={title} className="w-14 h-14 object-cover rounded-full border bg-primary" />
+        <img
+          src={imgSrc}
+          alt={title}
+          className="w-14 h-14 object-cover rounded-full border bg-primary"
+        />
         <div className="flex-grow overflow-hidden">
           <div className="flex justify-between">
             <div>
               <div className="flex items-center">
-                <h3 className="text-sm md:text-base font-semibold capitalize">{title}</h3>
+                <h3 className="text-sm md:text-base font-semibold capitalize">
+                  {title}
+                </h3>
                 <div className="ml-1 text-gray-500 transform translate-x-0 group-hover:translate-x-1 transition-transform ease-in-oout duration-300">
-                   <ChevronUp size={16} className={`hidden group-hover:block transition-rotation duration-500 ease-in-out ${isOpen? 'rotate-180': 'rotate-90'}`}/>
+                  <ChevronUp
+                    size={16}
+                    className={`hidden group-hover:block transition-rotation duration-500 ease-in-out ${
+                      isOpen ? "rotate-180" : "rotate-90"
+                    }`}
+                  />
                 </div>
               </div>
               <p className="text-xs md:text-sm text-primary capitalize">
@@ -54,7 +65,9 @@ const WorkExperienceItem: React.FC<WorkExperienceItemProps> = ({
               </p>
             </div>
             <div className="text-right">
-              <div className="text-xs md:text-sm text-muted-foreground">{tailing}</div>
+              <div className="text-xs md:text-sm text-muted-foreground">
+                {tailing}
+              </div>
               <p className="text-xs md:text-sm text-muted-foreground">
                 {subTailing}
               </p>
@@ -66,11 +79,14 @@ const WorkExperienceItem: React.FC<WorkExperienceItemProps> = ({
             }`}
           >
             {description}
-           <div className="flex gap-2 mt-2">
-           {skills && skills.map(skill=>(
-              <p className="py-1 px-2 bg-secondary text-xs rounded-sm">{skill}</p>
-            ))}
-            </div> 
+            <div className="flex gap-2 mt-2">
+              {skills &&
+                skills.map((skill) => (
+                  <p className="py-1 px-2 bg-secondary text-xs rounded-sm">
+                    {skill}
+                  </p>
+                ))}
+            </div>
           </div>
         </div>
       </div>

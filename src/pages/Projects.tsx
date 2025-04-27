@@ -18,7 +18,7 @@ function Projects() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
         {projectsData.map((p) => (
-          <ProjectCard key={p.title} data={p} />
+          <ProjectCard key={p.title} {...p} />
         ))}
       </div>
     </div>

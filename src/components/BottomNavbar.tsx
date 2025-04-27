@@ -8,7 +8,7 @@ import {
   Moon,
   Sun,
 } from "lucide-react";
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router"; 
 import { useTheme } from "./theme-provider";
 import { useTranslation } from "react-i18next";

@@ -13,11 +13,11 @@ function EducationSection() {
             imgSrc={item.imgSrc}
             title={t(item.title)}
             subTitle={t(item.subTitle)}
-            description={t(item.description)}
             tailing={t(item.tailing)}
             subTailing={t(item.subTailing)}
-            skills={item.skills}
             link={item.link}
+            isOpen={false}
+            toggle={()=>{}}
           />
         ))}
       </section>

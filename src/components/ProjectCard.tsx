@@ -6,12 +6,16 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 
-const ProjectCard: React.FC<ProjectItemPropsType> = ({ data }) => {
+const ProjectCard: React.FC<ProjectItemPropsType> = ({ title,
+  imgSrc,
+  shortDescription,
+  skills,
+  timeline,
+  githubLink,
+  demoLink }) => {
   const [isExpanded, setIsExpanded] = useState(false);
   const { t } = useTranslation();
   const openInNewTab = (url: string) => {
@@ -19,15 +23,15 @@ const ProjectCard: React.FC<ProjectItemPropsType> = ({ data }) => {
     if (newWindow) newWindow.opener = null;
   };
 
-  const {
-    title,
-    imgSrc,
-    shortDescription,
-    skills,
-    timeline,
-    githubLink,
-    demoLink,
-  } = data;
+  // const {
+  //   title,
+  //   imgSrc,
+  //   shortDescription,
+  //   skills,
+  //   timeline,
+  //   githubLink,
+  //   demoLink,
+  // } = data;
 
   const toggleDescription = () => {
     setIsExpanded(!isExpanded);
