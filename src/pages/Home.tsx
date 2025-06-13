@@ -11,8 +11,7 @@ function Home() {
   const name = "Imene";
 
   return (
-    <div className="max-w-screen-xl w-full lg:w-4xl mx-auto px-4 lg:px-0">    
-  
+    <div className="max-w-screen-xl w-full lg:w-4xl mx-auto lg:px-0">    
       <main className="flex flex-col-reverse md:flex-row gap-4 items-center justify-between text-center md:text-left ">
         <div className="max-w-2xl">
           <h3 className="text-2xl md:text-5xl font-black">

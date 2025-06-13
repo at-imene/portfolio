@@ -5,7 +5,7 @@ import ProjectCard from "../components/ProjectCard";
 function Projects() {
   const { t } = useTranslation();
   return (
-    <div className="max-w-screen w-full lg:w-4xl  mx-auto mt-4 text-center">
+    <div className="max-w-screen w-full lg:w-4xl mx-auto mt-4 text-center">
       <h4 className="bg-primary text-primary-foreground rounded text-center py-1 px-2 w-fit m-auto">
         {t("projects")}
       </h4>
