@@ -65,7 +65,7 @@ function ContactMe() {
   };
 
   return (
-    <div className="mt-10 px-4 text-center">
+    <div className="mt-10 md:px-4 text-center">
       <h4 className="bg-primary text-primary-foreground rounded-md text-center py-2 px-4 w-fit m-auto text-sm uppercase tracking-wide">
         {t("contact")}
       </h4>

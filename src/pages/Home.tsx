@@ -11,7 +11,8 @@ function Home() {
   const name = "Imene";
 
   return (
-    <div className="max-w-screen w-sm sm:px-0 md:min-w-3xl lg:min-w-4xl mx-auto space-y-8  space-b-24 mt-20 mb-40">
+    <div className="max-w-screen-xl w-full lg:w-4xl mx-auto px-4 lg:px-0">    
+  
       <main className="flex flex-col-reverse md:flex-row gap-4 items-center justify-between text-center md:text-left ">
         <div className="max-w-2xl">
           <h3 className="text-2xl md:text-5xl font-black">
@@ -30,13 +31,13 @@ function Home() {
           className="block rounded-full size-28 md:size-36 object-cover"
         />
       </main>
-
+     
       <AboutmeSection />
-
+      <div className="my-6"></div>
       <ExperienceSection />
-
+      <div className="my-6"></div>
       <EducationSection />
-
+      <div className="my-6"></div>
       <SkillsSection />
 
       <Projects />
