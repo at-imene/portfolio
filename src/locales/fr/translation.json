@@ -74,6 +74,11 @@
   "send-message": "Envoyer",
   "want-to-chat": "Vous voulez discuter ? Envoyez-moi simplement un message direct avec une",
   "direct-question": "question directe sur WhatsApp",
-  "i-will-ignore-soliciting": "et je répondrai dès que possible. Toute sollicitation sera ignorée."
+  "i-will-ignore-soliciting": "et je répondrai dès que possible. Toute sollicitation sera ignorée.",
+  "full-stack-developer": "Développeuse Full Stack",
+  "i-Yusr": "i-Yusr",
+  "iyusr-description": "Développement d’applications web fintech en Java Spring Boot et Angular, avec un accent sur la conception d’API REST sécurisées et l’optimisation des performances applicatives. Collaboration étroite avec les équipes IT et de conseil afin de fournir des solutions scalables et fiables, adaptées aux besoins du secteur financier.",
+  "iyusr-timeline": "Septembre 2025 – Présent",
+  "iyusr-headquarter": "Chéraga, Alger"
 
 }

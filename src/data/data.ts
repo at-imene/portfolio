@@ -25,6 +25,23 @@ const currentPage = window.location.origin;
 
 export const workExpData: WorkCardProps[] = [
   {
+    imgSrc: "/assets/img/logo-iyusr.png",
+    title: "full-stack-developer",
+    subTitle: "i-Yusr",
+    description: "iyusr-description",
+    tailing: "iyusr-timeline",
+    subTailing: "iyusr-headquarter",
+    skills: [
+      "Java spring boot",
+      "Angular js",
+      "Typescript",
+      "OpenAPI",
+      "Primeg",
+      "Postgresql",
+      "Git",
+    ],
+  },
+  {
     imgSrc: "/assets/img/logo-hcn.png",
     title: "software-engineer",
     subTitle: "hcn-high-commission-for-digitalization",
